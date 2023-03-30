@@ -24,7 +24,7 @@
     <input type="date" class="form-control" name="agreement" value="{{ $patient->agreement }}">
 
     <label for="" class="form-label pt-lg-4"> <strong>Nomor Telepon</strong> </label>
-    <input type="text" class="form-control" name="phone" value="{{ $patient->phone }}">
+    <input type="number" min="0" class="form-control" name="phone" value="{{ $patient->phone }}">
 
     <label for="" class="form-label pt-lg-4"> <strong>Keluhan</strong> </label>
     <textarea type="text" class="form-control" name="disease" cols="30" rows="5">{!! $patient->disease !!}</textarea>
