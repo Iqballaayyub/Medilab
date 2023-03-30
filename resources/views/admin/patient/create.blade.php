@@ -24,7 +24,7 @@
     <input type="date" class="form-control" name="agreement">
 
     <label for="" class="form-label pt-lg-4"> <strong>Nomor Telepon</strong> </label>
-    <input type="text" class="form-control" name="phone">
+    <input type="number" class="form-control" name="phone" min="0">
 
     <label for="" class="form-label pt-lg-4"> <strong>Keluhan</strong> </label>
     <textarea type="text" class="form-control" name="disease" cols="30" rows="5"></textarea>
