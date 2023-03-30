@@ -14,7 +14,7 @@
     <div class="container card p-3 mb-5 border-light">
         <table class="table table-striped table-bordered border-primary border-opacity-25">
             <thead>
-                <tr>
+                <tr class="bg-primary text-bg-dark bg-opacity-75">
                     <td>No</td>
                     <td>Name</td>
                     <td>Agreement</td>
