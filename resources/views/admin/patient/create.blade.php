@@ -29,7 +29,7 @@
     <label for="" class="form-label pt-lg-4"> <strong>Keluhan</strong> </label>
     <textarea type="text" class="form-control" name="disease" cols="30" rows="5"></textarea>
 
-    <button href="{{ route('patient.store') }}" type="submit" class="btn btn-primary mt-4 px-4"> Submit </button>
+    <button href="{{ route('patient.store') }}" type="submit" class="form-control btn btn-primary mt-4 px-4"> Submit </button>
 </div>
 </form>
 @endsection

@@ -15,7 +15,7 @@
     <label for="" class="form-label pt-lg-4"> <strong>Keluhan</strong> </label>
     <textarea type="text" class="form-control bg-primary bg-opacity-10 text-bg-light" name="disease" cols="30" rows="5" readonly>{!! $patient->disease !!}</textarea>
 
-    <a href="{{ route('patient.index') }}" type="submit" class="btn btn-outline-primary mt-4 px-4"> Go Back </a>
+    <a href="{{ route('patient.index') }}" type="submit" class=" form-control bx-spin-hover btn btn-outline-primary mt-5 px-4"> Go Back </a>
 </div>
 </form>
-@endsection
+@endsection 
